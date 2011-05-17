@@ -7,7 +7,7 @@ module ActiveMerchant
       API_VERSION = '1.0'
 
       # There is no test-only endpoint
-      self.test_url = 'https://cardpresent.authorize.net/gateway/transact.dll'
+      self.test_url = 'https://test.authorize.net/gateway/transact.dll'
       self.live_url = 'https://cardpresent.authorize.net/gateway/transact.dll'
       
       class_attribute :duplicate_window
